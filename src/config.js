@@ -3,5 +3,5 @@ module.exports = {
     db : {
         url : process.env.DATABASE_URL,
     },
-    secret : process.env.SECRET_KEY || "your-secret-key"
+    secret : process.env.SECRET_KEY 
 }
